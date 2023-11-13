@@ -11,10 +11,10 @@ import pickle
 #import base64
 
 # Load the trained models
-lr_model = pickle.load(open('C:/Users/User/Downloads/model_lr.pkl', 'rb'))
-dt_model = pickle.load(open('C:/Users/User/Downloads/model_dtc.pkl', 'rb'))
-rf_model = pickle.load(open('C:/Users/User/Downloads/model_rfc.pkl', 'rb'))
-svc_model = pickle.load(open('C:/Users/User/Downloads/model_svc.pkl', 'rb'))
+lr_model = pickle.load(open('C:/Users/User/Downloads/CC_FDWA/model_lr.pkl', 'rb'))
+dt_model = pickle.load(open('C:/Users/User/Downloads/CC_FDWA/model_dtc.pkl', 'rb'))
+rf_model = pickle.load(open('C:/Users/User/Downloads/CC_FDWA/model_rfc.pkl', 'rb'))
+svc_model = pickle.load(open('C:/Users/User/Downloads/CC_FDWA/model_svc.pkl', 'rb'))
 # Create a dictionary of models
 models = {
     'Logistic Regression': lr_model,
